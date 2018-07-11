@@ -1,0 +1,131 @@
+div.container{
+    clear: both;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container div.left{
+    display: block;
+    float: left;
+    border: none;
+    overflow: hidden;
+}
+.up{
+    display: block;
+    border: none;
+    overflow: hidden;
+}
+
+.up fieldset{
+    border-style: solid;
+    border-color: #9fde41;
+}
+
+.up legend{
+    display: block;
+	margin-right: 5%;
+    background-image: url(../img/upicon.png);
+    background-repeat: no-repeat;
+}
+
+.upbook{
+    display: block;
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #517ef4;
+    overflow: hidden;
+}
+
+.upbook img{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.upbook p{
+    color: #252833;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.upbook span{
+     text-align: center;
+    color: #77a72f;
+
+}
+.upbook a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #274aa7;
+}
+
+.upbook:hover{
+     background-color: #ffffff;
+}
+
+.down{
+    display: block;
+    border: none;
+    overflow: hidden;
+}
+
+.down fieldset{
+    border-style: solid;
+    border-color: #9fde41;
+}
+
+.down legend{
+    display: block;
+    margin-right: 5%;
+    background-image: url(../img/downicon.jpg);
+    background-repeat:no-repeat;
+}
+
+.downbook{
+    display: block;
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #517ef4;
+    overflow: hidden;
+}
+
+.downbook img{
+    display: block;
+    float: right;
+    margin: 1%;
+}
+
+.downbook p{
+    color: #252833;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.downbook a{
+     display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #274aa7;
+}
+
+.downbook span{
+    text-align: right;
+    color: #77a72f;
+}
+
+.downbook:hover{
+    background-color: #ffffff;
+}
+
+
+.upbook img:hover, .downbook img:hover{
+    border-radius: 5%;
+}
+.upbook a:hover,.downbook a:hover{
+    color: #77a72f;
+}

@@ -1,0 +1,60 @@
+div.container{ 
+    width: 500px;
+    height: 450px;
+    margin-top: 100px;
+}
+.form1{
+    font-size: 16px;
+}
+.form1 input[type="text"],input[type="password"]{
+    margin:0 0 5px 5px;
+
+}
+.form1 input[type="text"]{
+    width: 200px;
+    height: 20px;
+
+}
+
+.form1 input[type="password"],#text_1{
+    width: 413px;
+    height: 20px;
+
+
+}
+.form1 select{
+  
+    margin-left: -5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    width: 105px;
+    height: 30px;
+}
+
+.sex1{
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.sex1 input[type="radio"]{
+    width: 50px;
+}
+.sex1 label{
+    font-size: 24px;
+
+}
+
+.buttoncontent{
+    width: 450px;
+    height: 26px;
+
+}
+
+input[type="button"],input[type="reset"]{
+    width: 170px;
+    height: 26px;
+    font-size: 16px;
+    margin: 5px;
+}

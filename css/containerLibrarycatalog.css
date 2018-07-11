@@ -1,0 +1,80 @@
+div.container{
+    clear: both;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container div.left{
+    display: block;
+    float: left;
+    border: none;
+    overflow: hidden;
+}
+.book3{
+    display: block;
+    float: right;
+    border: none;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.book3 img{
+    display: block;
+    float: right;
+    margin-top: 10%;
+}
+.book3 h2,.book3 h2 a:visited{
+    text-align: center;
+    font-weight:lighter;
+    color: #517ef4;
+}
+.book3 h2 a{
+    display: block;
+    text-decoration: none;
+}
+
+.book3 h2 a:hover{
+    color: #9fde41;
+    text-decoration: underline;
+}
+.book3 span{
+    text-align: right;
+    color: #517ef4;
+}
+
+.book3 span mark{
+    display: inline;
+   background-color: #9fde41;
+}
+
+.book3 p{
+    text-align: right;
+    color: #252833;
+    word-wrap: break-word;
+}
+
+.numslid{
+    display: block;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.numslid a{
+    display: inline;
+    background-color: #252833;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 50%;
+    line-height: 250%;
+    
+}
+
+.numslid a:hover{
+    background-color: #ffffff;
+    color: #252833;
+    cursor: pointer;
+}

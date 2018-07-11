@@ -1,0 +1,38 @@
+div.container{
+    display: block;
+    margin:0 auto;
+    overflow: hidden;
+}
+.form1{
+    color: #252833;
+}
+
+.form1 select{
+    display: inline;
+    border: none;
+    background-color: #ffffff;
+    border-left-width: 1px;
+    border-left-color: #f2f2f2;
+    border-left-style: solid;
+    overflow: hidden;
+    
+}
+
+.sex1{
+    display: block;
+    margin: 0 auto;
+}
+
+.buttoncontent{
+    display: block;
+    margin: 0 auto;
+
+}
+
+input[type="button"],input[type="reset"]{
+    display: inline;
+    border: none;
+    background: none;
+   background-color: cornflowerblue;
+    color: #f2f2f2;
+}

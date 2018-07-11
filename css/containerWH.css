@@ -1,0 +1,61 @@
+div.container{
+    width: 1024px;
+    height: 1200px;
+    margin-top: 5px;
+}
+
+.container div.left{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 740px;
+    height: 100%;
+}
+
+.up{
+    width: 100%;
+    height: 500px;
+}
+
+.up fieldset{
+    border-width: 5px;
+}
+.up legend{
+    width: 150px;
+    height: 50px;
+}
+
+.upbook{
+    width: 133px;
+    height: 210px;
+    font-size: 14px;
+    margin: 5px 5px 5px 5px;
+
+}
+.upbook a{
+	 font-size: 16px;
+}
+
+.down{
+    width: 100%;
+    height: 700px;
+    margin-top: 5px;
+    
+}
+.down fieldset{
+    border-width: 5px;
+}
+.down legend{
+    width: 200px;
+    height: 50px;
+}
+
+.downbook{
+    width: 350px;
+    height: 115px;
+    font-size: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+.downbook a{
+    font-size: 16px;
+}

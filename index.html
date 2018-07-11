@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="ab">
+    <head>
+        
+        <meta name="keywords" content="كتبى, مكتبتى ">
+        <meta name="description" content="كتبى مجانيه الكترونيه">
+        <meta charset="utf-8">
+        <link rel="icon" href="img/AddressBook.png" media="screen">
+        <title>كتبى</title>
+        <link rel="stylesheet" href="css/master.css" type="text/css">
+        <link rel="stylesheet" href="css/header.css" type="text/css">
+        <link rel="stylesheet" href="css/navbar.css" type="text/css">
+		<link rel="stylesheet" href="css/container.css" type="text/css">
+        <link rel="stylesheet" href="css/containerright.css" type="text/css">
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
+                <!-- width & hight -->
+        <link rel="stylesheet" href="css/headerWH.css" type="text/css">
+		<link rel="stylesheet" href="css/navbarWH.css" type="text/css">
+        <link rel="stylesheet" href="css/containerWH.css" type="text/css">
+        <link rel="stylesheet" href="css/containerrightWH.css" type="text/css">
+        <link rel="stylesheet" href="css/footerWH.css" type="text/css">
+        
+    </head>
+    
+    <body><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ar_AR/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <div class="wrapper">
+            <div class="header">
+                <div class="topbar">
+                    <div class="out" id="out">
+                        <form method="get">
+                            <input type="text" placeholder="اسم المستخدم.... " name="username"  maxlength="15" id="t1">
+                            <input type="password" placeholder="كلمه المرور.... " name="pass"  maxlength="15" id="t2">
+                            <input type="button" value="دخول" name="login" onclick="loing();">
+                            <input type="button" value="تسجيل" name="rig" onclick="open1();">
+                        </form>
+                    </div>
+                    <div class="in" id="in">
+                        <div class="username">اسم المستخدم <span id="username1">:</span></div>
+                            <button type="button"  onclick="out();" name="out2">خروج</button>
+                    </div>
+                </div>
+                
+                <div class="header2">
+                    <div class="logo"><img src="img/log0.png" title="كتبى" alt="كتبى"></div>
+                    <div class="slidmarquee">
+                        <div class="marquee">
+                            <marquee id="marq" behavior="scroll" direction="up" scrollamount="10" scrolldelay="100" onmousemove="this.stop();" onmouseout="this.start();" > 
+                        اهلا وسهلا فى موقع كتبى  <br/> لدينا افضل الكتب
+                            </marquee>
+                        </div>
+                        <div class="slidbutton" id="slidbutton">
+                            <button type="button" onclick="marquee1();" name="coment">تعليق</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="navbar">
+                <div class="navbarli">
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="Librarycatalog.html">فهرست المكتبة</a></li>
+                        <li><a href="#">اضف كتاب</a></li>
+                        <li><a href="registration.html">تسجيل</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+					<form method="get">
+						<table>
+							<tr>
+							<td><input type="text" placeholder="بحث....." maxlength="25"></td>
+							<td><input type="submit" value=""></td>
+							</tr>
+						</table>
+					</form>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="left">
+                    <div class="up">
+                        <fieldset><legend></legend>
+                            <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                              <div class="upbook">
+                                <img src="img/book1.jpg">
+                                <p><span>اسم الكتاب&nbsp;:</span>كتاب1</p>
+                                <p><span>اسم المؤالف&nbsp;:</span>احمد سمير</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="down">
+                        <fieldset><legend></legend>
+                            <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                             <div class="downbook">
+                                <img src="img/book2.jpg">
+                                <p><span>إسم الكتاب:&nbsp;</span>كتاب 2</p>
+                                <p><span>إسم المؤلف:&nbsp;</span> احمد سمير</p>
+                                <p><span>تاريخ الإضافة:&nbsp;</span>5/5/2015</p>
+                                <p><span> حجم الكتاب:&nbsp;</span>1.53 ميجا بايت</p>
+                                <p><span>وصف الكتاب:&nbsp;</span>موقع مكتبتي يقدم كتب مجانية عربية وأجنبية في جميع المجالات ...</p>
+                                <a href="#">المزيد&raquo;</a>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="sidbar">
+                        <ul>
+                            <li><a href="#">كتب دينية</a></li>
+                            <li><a href="#">كتب ترفيهية</a></li>
+                            <li><a href="#">كتب برمجية</a></li>
+                            <li><a href="#">كتب ثقافية</a></li>
+                            <li><a href="#">كتب تاريخية</a></li>
+                            <li><a href="#">كتب رياضية</a></li>
+                            <li><a href="#">كتب كميائية</a></li>
+                            <li><a href="#">كتب فيزيائية</a></li>
+                            <li><a href="#">كتب انجليزية</a></li>
+                            <li><a href="#">كتب تربية</a></li>
+                        </ul>
+                    </div>
+                    <div class="FT">
+                        <div class="twitter">
+                            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Ahmednet2010" data-widget-id="660086568254853120">تغريدات بواسطة @Ahmednet2010</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+                        <div class="facebook">
+						<div class="fb-page" data-href="https://www.facebook.com/facebook" data-width="250" data-height="450" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">‏‎Facebook‎‏</a></blockquote></div></div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <div class="copyright">
+                    <span>the copyright Powered by: AS</span>&nbsp;<p>موقع كتبى - كتب إلكترونية مجانية</p>
+                </div>
+                <div class="socallinks">
+                    <a href="#"><img src="img/fb.png" width="42" height="42"></a>
+                    <a href="#"><img src="img/tw.png" width="42" height="42"></a>
+                    <a href="#"><img src="img/yt.png" width="42" height="42"></a>
+                    <a href="#"><img src="img/rss.png" width="42" height="42"></a>
+                </div>
+            </div>
+        </div>
+        <script src="js/marquee.js"></script>
+        <script src="js/in.js"></script>
+        <script src="js/stat.js"></script>
+        <noscript>window.alert("Your browser does not support JavaScript!")</noscript>
+    </body>
+</html>

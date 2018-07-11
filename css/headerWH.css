@@ -1,0 +1,93 @@
+div.header{
+	 width: 1024px;
+    height: 600px;
+}
+div.topbar{
+	width: 100%;
+    height: 8.3%;
+}
+.out{
+	 width: 100%;
+    height: 80%;
+	top: 10px;
+}
+.out form{
+	margin-right:10px;
+}
+.out form input{
+    margin:0 5px 0 5px;
+}
+.out form input[type="text"],input[type="password"]{
+    width: 19.7%;
+    height: 49%;
+    font-size: 16px;
+}
+
+.out form input[type="button"]{
+    width: 4.9%;
+    height: 65%;
+    font-size: 16px;
+}
+
+/* child topbar*/
+.in{
+    width: 100%;
+    height: 80%;
+    top: 10px;
+}
+ /* child in*/
+.username{
+    width: 49.4%;
+    height: 75%;
+	margin-right:20px;
+    font-size: 24px;
+}
+
+ .in button{ 
+    width: 4.9%;
+    height: 65%;
+	margin-left:20px;
+}
+
+/*div father*/
+div.header2{
+    width: 100%;
+    height: 91.7%;
+}
+.logo{
+    margin-top: 170px;
+    margin-right: 20px;
+    width: 34.2%;
+    height: 27.3%;
+}
+
+/* div father*/
+.slidmarquee{
+    width: 78.125%;
+    height: 21.8%;
+	margin-top: 110px;
+		
+}
+/* chlid slidmarquee */
+.marquee{
+    width: 100%;
+    height: 100%;
+}
+
+.marquee marquee{
+	width:100%;
+	height:100%;
+    font-size: 36px;
+}
+
+.slidbutton{
+    width: 12.5%;
+    height: 83.3%;
+    top: 10px;
+    left: 5px;
+}
+.slidbutton button{
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+}

@@ -1,0 +1,64 @@
+div.navbar{
+    padding: 0;
+    margin: 0;
+    clear: both;
+    display: block;
+    background-image: url("../img/bgnv1.png");
+	background-repeat:no-repeat;
+    overflow: hidden;
+}
+
+.navbarli{
+    display: block;
+    float: right;
+}
+
+.navbarli ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbarli ul li{
+    display: inline;
+    float: right;
+}
+.navbarli ul li a{
+    display: block;
+    text-decoration: none;
+    width: auto;
+    color: #f2f2f2;
+    
+}
+
+.navbarli ul li a:hover{
+    color: #9fde41;
+    cursor: pointer;
+}
+
+.search{
+    display: block;
+    float: left;
+    direction: rtl;
+}
+
+.search table,tr{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.search table tr td input{
+    vertical-align: middle;
+}
+.search table tr td input[type="text"]{
+    color: #252833;
+    
+}
+
+.search table tr td input[type="submit"]{
+    border: none;
+    background-image: url(../img/buttonsearch1.png);
+    background-repeat: no-repeat;
+   cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.container div.right{
+    float: right;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sidbar{
+    display: block;
+    background-image: url(../img/sidbarBG.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.sidbar ul{
+    display: block;
+}
+.sidbar ul li{
+    display: list-item;
+    list-style: none;
+    list-style-image: url(../img/licone.png);
+    list-style-position: outside;
+    
+
+}
+.sidbar ul li a{
+    display: block;
+    color: #f2f2f2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.FT{
+    display: block;
+    overflow: hidden;
+}
+
+.FT .twiter,.facebook{
+	background-color: #252833;
+    margin: 0 auto;
+}
+
+.sidbar ul li a:hover{
+    color: #77a72f;
+    text-decoration: underline;
+}

@@ -1,0 +1,39 @@
+.container div.right{
+    width: 260px;
+    height: 100%;
+    margin-right: 10px;
+        
+}
+
+.sidbar{
+    width: 260px;
+    height: 270px;
+
+}
+
+.sidbar ul{
+    width: 150px;
+    height: auto;
+    padding-right: 70px;
+    padding-top: 45px;
+}
+
+.sidbar ul li a{
+    font-size: 18px;
+}
+
+.FT{
+    display: block;
+    width: 260px;
+    height: 900px;
+    margin-top: 20px;
+
+}
+.FT .twitter, .facebook{
+    width: 250px;
+    height: 450px;
+}
+.FT .facebook{
+    margin-top: 10px;
+}
+

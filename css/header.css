@@ -1,0 +1,104 @@
+div.header{
+    display: block;
+    background-image: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+    overflow: hidden;
+}
+ /* div father*/
+div.topbar{
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    color: #f2f2f2;
+    overflow: hidden;
+}
+
+/* child topbar*/
+.out{
+    position: absolute;
+    display: block;
+    visibility: visible;
+}
+/* child out*/
+.out form{
+    display: inline;
+}
+
+.out form input[type="button"]{
+    border: none;
+    background: none;
+    background-image: url(../img/buttonx.jpg);
+	background-repeat: no-repeat;
+    color: #f2f2f2;
+}
+
+/* child topbar*/
+.in{
+    display: block;
+    position:absolute;
+    visibility: hidden;
+}
+ /* child in*/
+.username{
+    display: inline;
+}
+
+ .in button{
+    display: block;
+	float:left;
+    border: none;
+    background-image: url(../img/buttonx.jpg);
+	background-repeat: no-repeat;
+    color: #f2f2f2;
+}
+
+/*div father*/
+div.header2{
+    display: block;
+    overflow: hidden;
+}
+.logo{
+    display: block;
+}
+
+/* div father*/
+.slidmarquee{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+		
+}
+/* chlid slidmarquee */
+.marquee{
+    display: block;
+    background-image: url(../img/marquee1.png);
+	background-repeat:repeat-y;
+	z-index: 0;
+}
+
+.marquee marquee{
+    display: block;
+    text-align: center;
+    color: #252833;
+    word-wrap: break-word;
+}
+
+.slidbutton{
+    display: block;
+    position: absolute;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 1;
+    visibility: hidden;
+}
+.slidbutton button{
+    display: block;
+    border: none;
+    background-image: url(../img/icon1-5.jpg);
+	background-repeat: no-repeat;
+    color: #f2f2f2;
+    cursor:pointer;
+}
